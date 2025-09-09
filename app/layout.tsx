@@ -1,16 +1,16 @@
-import type { Metadata } from "next";
-import { Poppins } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Poppins } from 'next/font/google';
+import './globals.css';
 
 const poppins = Poppins({
-  variable: "--font-poppins",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  variable: '--font-poppins',
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
-  title: "subscriptions.site",
-  description: "Never overpay for your subscriptions again",
+  title: 'subscriptions.site',
+  description: 'Never overpay for your subscriptions again',
 };
 
 export default function RootLayout({
